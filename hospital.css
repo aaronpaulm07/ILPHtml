@@ -1,144 +1,467 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
-.topImage{
-    width: 99vw;
+.topImage {
+  width: 99vw;
 }
-.topBar{
-    display: flex;
-    height: 40px;
-    background-color: #F5F5F5;
-    font-size: 14px;
+.topBar {
+  display: flex;
+  height: 40px;
+  background-color: #f5f5f5;
+  font-size: 14px;
 }
-.leftTopBar{
-    flex:1;
-    margin-left: 80px;
+.leftTopBar {
+  flex: 1;
+  margin-left: 80px;
 }
-.rightTopBar{
-    flex:1;
-    display: flex;
-    margin-left: 150px;
-    width:50%;
+.leftTopBar h6{
+  top:-7px;
+  position: relative;
 }
-.num{
-    flex:1;
-    margin-left: 20px;
+.rightTopBar h6{
+  top:-7px;
+  position: relative;
 }
-.mails{
-    flex:1;
-    width:50%;
-    text-align: left;
-    margin-left: 50px;
+.rightTopBar .number {
+  display: flex;
 }
-.navBar{
-    display:flex;
-    width: 100%;
-    justify-content: space-between; 
-    /* border: 2px solid red; */
+.rightTopBar .number img{
+  width: 10px;
+  height: 10px;
+  top:13px;
+  left:-4px;
+  position: relative;
 }
-.logo{
-    flex:1;
-    margin: 10px;
-    /* border: 2px solid red; */
+.rightTopBar .mails img{
+  width: 10px;
+  height: 10px;
+  /* top:13px; */
+  left:-4px;
+  position: relative;
 }
-.menu{
-    text-align: right;
-    justify-content: space-around;
-    display:flex;
+.leftTopBar img{
+  top: -50px;
+  position: relative;
+  left: 70px;
+  scale:0.8;
+}
+.rightTopBar {
+  flex: 1;
+  display: flex;
+  margin-left: 150px;
+  width: 50%;
+}
+.num {
+  flex: 1;
+  margin-left: 20px;
+}
+.mails {
+  flex: 1;
+  width: 50%;
+  text-align: left;
+  margin-left: 50px;
+}
+.navBar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.logo {
+  flex: 1;
+  margin: 10px;
+  /* border: 2px solid red; */
+}
+.menu {
+  text-align: right;
+  justify-content: space-around;
+  display: flex;
+  flex: 3;
+  padding: 35px;
+  /* border: 2px solid red; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.docImage {
+  width: 80vw;
+  left: 126px;
+  position: relative;
+  border-radius: 15px;
+}
+.lc {
+  top: -400px;
+  position: relative;
+  left: 250px;
+  font-size: 40px;
+}
+.fast {
+  top: -420px;
+  position: relative;
+  left: 250px;
+  font-size: 15px;
+}
+
+.BAA {
+  background-color: #17c1a3;
+  border: none;
+  padding: 15px;
+  bottom: 390px;
+  left: 250px;
+  color: white;
+  position: relative;
+  border-radius: 15px;
+}
+.doctalk {
+  padding: 15px;
+  bottom: 390px;
+  left: 290px;
+  position: relative;
+}
+.float {
+  background-color: rgb(255, 255, 255);
+  bottom: 320px;
+  position: relative;
+  padding: 30px;
+  height: 100px;
+  /* border: #000000;  */
+  left: 20%;
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #d1d1d1;
+  /* opacity: 95%; */
+}
+.upform {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.input1 {
+  flex: 1;
+  /* border: 1px solid #000000; */
+  padding: 12px 20px;
+  margin: 3px;
+  border-radius: 5px;
+  /* border-color: #ad0000; */
+  border-width: 1px;
+  width: 215px;
+  color: white;
+}
+.submit {
+  bottom: 49px;
+  left: 445px;
+  background-color: #17c1a3;
+  position: relative;
+  border: #17c1a3;
+}
+.department {
+  position: relative;
+  left: -100px;
+  top: 0px;
+  width: 840px;
+  height: 370px;
+}
+.department h2 {
+  left: 0px;
+}
+.carousel {
+  width: 1669px;
+  height: 581px;
+  top: 1px;
+  left: 0px;
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+}
+.carousel h5 {
+  margin: 3px;
+}
+.carousel a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+}
+.rec10 {
+  width: 299px;
+  height: 190px;
+  /* top: 1383px; */
+  /* left: 126px */
+  border-radius: 8px;
+  /* padding: 10px; */
+}
+.cards {
+  padding: 10px;
+}
+.carousel p6 {
+  font-size: 13px;
+}
+.blueboxforwhy {
+  background-color: #b9fff2;
+  display: flex;
+  position: relative;
+  top: -140px;
+  width: 970px;
+  border-radius: 15px;
+}
+.docimagewhy {
+  /* width: 600px;
+    height:450px; */
+  flex: 1;
+}
+.docimagewhy img {
+  width: 620px;
+  height: 450px;
+}
+.whylist {
+  flex: 1;
+  padding-top: 75px;
+}
+.whylistpoint {
+  padding: 15px;
+}
+.whylistpoint img {
+  top: 7px;
+  position: relative;
+}
+.whylistpoint p5 {
+  font-size: 15px;
+}
+.speciality {
+  width: 970px;
+}
+.specHeading {
+  text-align: center;
+}
+.specHeading p3 {
+  top: -17px;
+  position: relative;
+  font-size: 14px;
+  color: #999999;
+}
+.specialityCards {
+  display: flex;
+}
+.specialityCards .cards img {
+  width: 180px;
+  height: 220px;
+}
+.specialityCards .cards h5 {
+  /* text-align: center; */
+  margin: 2px;
+}
+.specialityCards .cards p6 {
+  font-size: 13px;
+  text-align: center;
+  color: #999999;
+}
+.specialityCards .cards {
+  width: 180px;
+  text-align: center;
+  flex: 1;
+}
+.view {
+  top: 0px;
+  left: 405px;
+  width: 150px;
+}
+.facility {
+  text-align: center;
+  width: 970px;
+  top: 70px;
+  position: relative;
+}
+.facCards {
+  display: flex;
+  padding: 20px;
+}
+.facility .carousel {
+  width: 970px;
+  height: fit-content;
+}
+.facility .carousel .cards {
+  flex: 1;
+  height: auto;
+  /* position: relative; */
+}
+.facility .cards img {
+  width: 300px;
+  height: 200px;
+}
+.youMightbe {
+  top: 150px;
+  position: relative;
+  text-align: center;
+  width: 970px;
+}
+.youMightbe .cards {
+  text-align: left;
+  flex: 1;
+}
+.youMightbe .cards p6 {
+  font-size: 13px;
+}
+.youMightbe .cards h5 {
+  margin: 5px;
+  margin-top: 10px;
+}
+.youMightbe .cards a {
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+}
+.slides {
+  display: flex;
+}
+.bluebox {
+  background-color: #dffff9;
+  width: 200%;
+  height: 700px;
+  left: -300px;
+  top: -30px;
+  position: relative;
+  z-index: -1;
+}
+.signUpBox {
+  background-color: white;
+  position: relative;
+  top: -330px;
+  padding: 30px;
+  left: 50px;
+  overflow: hidden;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+}
+.signUpBox .input1 {
+  border: none;
+  width: 250px;
+  /* top:-60px; */
+  position: absolute;
+  left: 540px;
+  top: 85px;
+}
+.signUpBox h2 {
+  position: relative;
+  top: -300px;
+}
+.signUpBox hr {
+  width: 300px;
+  position: relative;
+  top: -365px;
+  left: 250px;
+}
+.signUpBox .submit {
+  color: white;
+  padding: 12px 20px;
+  margin: 3px;
+  border-radius: 5px;
+  top: -370px;
+  left: 720px;
+  position: relative;
+}
+.signUpBox img {
+  object-fit: contain;
+  left: -270px;
+  position: relative;
+  top: -90px;
+  scale: 0.7;
+}
+.footer {
+  bottom: 0;
+  position: relative;
+  background-color: #f9fafa;
+  width: 1350px;
+  top: -240px;
+  left: -180px;
+}
+.upperFooter {
+  display: flex;
+  /* flex-direction: row; */
+  position: relative;
+  top: 0px;
+  padding: 50px;
+}
+.footerUpperSection {
+  top: 10px; 
+  display: flex;
+  position: relative;
+  left: 50px;
+  padding: 30px;
+  width: 30%;
+}
+.footer hr{
+    position: relative;
+    top: -80px;
+}
+.one{
+    flex: 2;
+}
+.two{
     flex:3;
-    padding: 35px;
-    /* border: 2px solid red; */
     
 }
-a{
-    text-decoration: none;
-    color: black;
+.footerUpperSection p2 {
+  width: 255px;
+  position: relative;
+  height: 60px;
+  font-size: 10px;
+  text-align: justify;
+  display: flex;
+  top:0px;
+  left: 25px;
+  opacity: 0.7px;
 }
-.docImage{
-    width: 80vw;
-    left: 126px;
-    position: relative;
-    border-radius: 15px;
+.footerUpperSection img {
+  scale: 0.8;
 }
-.lc{
-    top:-400px;
-    position: relative;
-    left:250px;
-    font-size: 40px;
+.fUSS{
+    flex:1;
+    padding-right: 70px;
+    
 }
-.fast{
-    top:-420px;
-    position: relative;
-    left:250px;
+.fUSS h4{
     font-size: 15px;
 }
-
-.BAA{
-    background-color: #17C1A3;
-    border: none;
-    padding: 15px;
-    bottom :390px;
-    left:250px;
-    color: white;
-    position: relative;
-    border-radius: 15px;
-}
-.doctalk{
-    padding: 15px;
-    bottom :390px;
-    left: 290px;
-    position: relative;
-}
-.float{
-    background-color: white;
-    bottom: 320px;
-    position: relative;
-    padding: 30px;
-    height: 250px;
-    left:20%;
-    width: 50%;
-    border-radius: 15px;
-    opacity: 95%;
-}
-.upform{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
-}
-.input1{
+.fUSS .aGG{
     flex:1;
-    /* border: 1px solid #000000; */
-    padding: 12px 20px;
-    margin: 3px;
-    border-radius: 5px;
-    /* border-color: #ad0000; */
-    border-width: 1px;
-    width: 215px;
-    }
-.submit{
-     bottom:49px;
-     left: 445px;
-     background-color: #17C1A3;
-     position: relative;
-     border: #17C1A3;
-
- }
-.carousel{
-    width: 1669px;
-    height: 581px;
-    top: 1px;
-    left: 1px;
+    left: -18px;
+    top: -25px;
+    padding-top:30px ;
     position: relative;
-    border-radius: 8px;
 }
-.rec10{
-    width: 299px;
-    height: 190px;
-/* top: 1383px; */
-/* left: 126px */
-    border-radius: 8px;
-}
-.carousel p6{
+.fUSS a{
+    margin: 20px;
     font-size: 13px;
+    flex:1; 
+    position: relative;
+}
+.fUSS1{
+    display: flex;
+}
+
+.two{
+    top: -20px;
+}
+.lowerFooter{
+    display: flex;
+    left:90px;
+    top: -30px;
+    position: relative;
+}
+.lowerFooter div{
+    flex:2;
+    padding: 20px;
+}
+.lowerFooter{
+    font-size: 13px;
+}
+.lowerFooter .number{
+    width: 100px;
+    flex:1;
+    position: relative;
+}
+.number img{
+  top:10px;
 }
