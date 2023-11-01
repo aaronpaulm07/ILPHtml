@@ -117,11 +117,12 @@ a{
     width: 215px;
     }
 .submit{
-    bottom:49px;
+     bottom:49px;
      left: 445px;
      background-color: #17C1A3;
      position: relative;
      border: #17C1A3;
+
  }
 .carousel{
     width: 1669px;
@@ -132,10 +133,12 @@ a{
     border-radius: 8px;
 }
 .rec10{
-    width: 529px;
-height: 327px;
+    width: 299px;
+    height: 190px;
 /* top: 1383px; */
 /* left: 126px */
-border-radius: 8px;
-
+    border-radius: 8px;
+}
+.carousel p6{
+    font-size: 13px;
 }
