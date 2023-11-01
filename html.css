@@ -1,0 +1,139 @@
+body{
+    background-color: #0b6e4f;
+    text-decoration-color: azure;
+
+}
+p1{
+    color: antiquewhite;
+}
+
+h1{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #08a045;
+    
+
+}
+.updiv{
+    display : flex;
+    margin-top: 50px;
+    background-color: #073b3a;
+    height: 120px;
+    align-items: center;
+    margin-right: 180px;
+    margin-left: 180px ;
+    margin-bottom: 30px;
+    /* border-style: solid; */
+    border-radius: 50px;
+  }
+.name{
+    text-align: center;
+    /* margin-right: 300px; */
+    /* margin-top: 10px; */
+    width: 70%;
+    margin-left: 00px;
+    flex:4;
+    
+}
+.pic{
+    /* height:auto ; */
+    flex: 1;
+    margin-left: -100px;
+    height: fit-content;
+    width: fit-content;
+}
+img{
+    border-radius: 20%;
+    scale: 0.65;
+}
+.left{
+    flex:1;
+    border-color: aliceblue;
+    border: 2px;
+    padding: 2px;
+    margin-left: 140px ;
+    
+}
+.right{
+    flex:2;
+    background-color: #073b3a;
+    margin-right: 180px;
+    margin-left: 20px;
+    border-radius: 15px;
+    /* text-decoration-color: #ffffff; */
+}
+ p1{
+    line-height: 30px;
+    margin-bottom: 10px;
+} 
+.skills{
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.details{
+    text-align: left;
+    /* color:rgb(40, 223, 16); */
+    /* margin: 10px; */
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+}
+.det{
+    margin-top:200px;
+    flex:3;
+    color: white;
+    margin: 20px;
+}
+h3{
+    color: #6bbf59;;
+    margin-left: 10px;
+}
+.Education{
+    color: black;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+h4{
+    margin: 5px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+a{
+    color: antiquewhite;  
+}
+.tab{
+    border: 1px;
+    width: 50%;
+    color: white;
+}
+.projects{
+ /* background-color: rgb(88, 177, 255); */
+ grid-template-columns: max-content;
+ margin: 20px;
+ width: fit-content;
+}
+th, td {
+    /* background-color: #96D4D4; */
+    width: max-content;
+    /* margin-right: 10px; */
+    text-align-last:left;
+    
+  }
+  li{
+    /* background-color: #035e03; */
+    color: white;
+    margin: 5px;
+    width: fit-content;
+    /* color: white; */
+  }
+  .container{
+    display: flex;
+    
+  }
+ 
+  
